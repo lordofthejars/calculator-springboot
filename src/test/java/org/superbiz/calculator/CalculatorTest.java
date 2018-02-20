@@ -21,19 +21,6 @@ public class CalculatorTest {
     }
 
     @Test
-    public void should_subtract_when_negative() {
-
-        // given
-        Calculator calculator = new Calculator();
-
-        // when
-        final int result = calculator.add(1, -3);
-
-        // then
-        assertThat(result).isEqualTo(-2);
-    }
-
-    @Test
     public void should_multiply_two_numbers() {
 
         // given
