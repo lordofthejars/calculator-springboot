@@ -1,4 +1,4 @@
 package org.superbiz.calculator;
 
-public interface ImportantTest {
+public interface ImportantTests {
 }
