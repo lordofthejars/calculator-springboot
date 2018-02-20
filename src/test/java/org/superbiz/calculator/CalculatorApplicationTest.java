@@ -13,7 +13,9 @@ import static org.assertj.core.api.Assertions.assertThat;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @Import(CalculatorApplication.class)
-public class CalculatorApplicationTests {
+public class CalculatorApplicationTest {
+
+    private CalculatorApplication calculatorApplication;
 
     @Autowired
     private TestRestTemplate restTemplate;
