@@ -15,8 +15,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Import(CalculatorApplication.class)
 public class CalculatorApplicationTest {
 
-    private CalculatorApplication calculatorApplication;
-
     @Autowired
     private TestRestTemplate restTemplate;
 
